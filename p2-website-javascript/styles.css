@@ -251,3 +251,14 @@ footer {
 .mijn-klasse a {
   margin-right: 20px; /* Voeg een rechtermarge toe tussen de items */
 }
+
+.panel {
+  display: none;
+  padding: 20px;
+/*  border: 1px solid #CCCCCC;*/
+ /* background-color: #F0F0F0;*/
+}
+
+.panel.active {
+  display: block;
+}
