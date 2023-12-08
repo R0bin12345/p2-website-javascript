@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Goede doel RObin</title>
+ <title>Portfolio Robin</title>
  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -62,19 +62,67 @@
   </header>
   <br>
   <main>
-   <!----- <table>
-      <thead>
-        <tr>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td ></td>
-        </tr>
-      </tbody>
-</table>--->
- 
+   <button class="accordion">Persoonlijke gegevens:</button>
+   <div class="panel">
+       <p>Naam: Robin van Klaveren<br>
+        Adres:-------<br>
+        Telefoon:06595677<br>
+        Geboortedatum: 17-04-2004<br>
+        Geboorteplaats: Rotterdam<br>
+        Nationaliteit: Nederlandse<br>
+        E-mailadres:------
+        </p>
+   </div>
+   <button class="accordion">Opleidingen:</button>
+   <div class="panel">
+    <p> 2023-heden| Techniek College Rotterdam 
+        Software development Mbo niveau 2 
+        <br>2021-2023 |Techniek College Rotterdam 
+           Medewerker ICT support Mbo niveau 2 Bol Diploma behaald<br>
+           	2018-2021 |Ozhw Groen College Barendrecht
+               Vmbo Basisberoepsgerichte leerweg (BB)
+               Diploma behaald
+               <br>
+        </p>
+   </div>
+   <button class="accordion">Werkervaring (stage):</button>
+   <div class="panel">
+       <p>	Vakkenvuller bij Dirk van den broek | 28-10-2019 tot 3-3-2020.<br>Assistent administratief medewerker Bij GS-Hydro Benelux B.V. | 28-10-2020 tot 3-3-2021<br>	Medewerker ict support bij cbs de Akker| 09-05-2022 tot 13-03-2023</p>
+   </div><button class="accordion">Competenties:</button>
+   <div class="panel">
+       <p>Ik kan samenwerken <br>
+        Ik heb respect voor de mede mens
+        </p>
+   </div><button class="accordion">Vaardigheden:</button>
+   <div class="panel">
+       <p>Beheerst de Engelse en Nederlandse taal vloeiend. <br>
+        Kan met Microsoft Office programma’s werken.
+        </p>
+   </div><button class="accordion">Hobby’s:</button>
+   <div class="panel">
+       <p>Netflix kijken
+        <br>	Gamen
+        <br>Koken/bakken
+        </p>
+   </div>
+
+   <script>
+       // JavaScript om de knopfunctionaliteit toe te voegen. 
+       //Dit is maar een klein stukje vandaar dat het niet nodig isom het in een apart javascript bestand te zetten.
+       var acc = document.getElementsByClassName("accordion");
+
+       for (var i = 0; i < acc.length; i++) {
+           acc[i].addEventListener("click", function() {
+               this.classList.toggle("active");
+               var panel = this.nextElementSibling;
+               if (panel.style.display === "block") {
+                   panel.style.display = "none";
+               } else {
+                   panel.style.display = "block";
+               }
+           });
+       }
+   </script>
 </main>
  
   <footer>
