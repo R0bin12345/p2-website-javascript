@@ -70,7 +70,7 @@ h1 {
       }
      
       h2{
-    color: #FFFFFF; /* white color */
+    color: red; /* red color */
   }
  
 p{
@@ -84,7 +84,7 @@ p{
   table{ color:white; /*text kleur table*/
  background-color:#144820; /* Achtergrondkleur voor de tabel */
   }
-  h2{border-style: solid;border-radius: 5px;border-color: #04AA6D;}
+  h2{border-style: solid;border-radius: auto;border-color: lavenderblush; size border: auto;}
  
   footer{background-color: #CCFFFF;
   color: rgb(0, 0, 0);
@@ -259,12 +259,6 @@ footer {
  /* background-color: #F0F0F0;*/
 }
 
-.panel.active {
-  display: block;
-}
-
-.Container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/*.panel.active {
+  display: block;*
 }
