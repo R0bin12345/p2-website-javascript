@@ -262,3 +262,9 @@ footer {
 .panel.active {
   display: block;
 }
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
