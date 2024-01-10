@@ -261,4 +261,16 @@ footer {
 
 /*.panel.active {
   display: block;*
+}*/
+
+.pic-cropper__target-image {
+  /* Oorspronkelijke breedte en hoogte */
+ display:flex;
+ margin-top: 100px; 
+ margin-left: 100px;
+  width: 396px;
+  height: 222.75px;
+
+  /* Vergroting van 1.5x (150%) */
+  transform: scale(1.5);
 }
