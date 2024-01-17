@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  button {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
+  .game-button {
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px; /* Voeg eventueel padding toe voor visuele scheiding tussen knoppen */
+    text-align: center; /* Centreer de tekst binnen de knop */
+}
