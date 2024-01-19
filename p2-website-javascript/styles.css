@@ -274,3 +274,15 @@ footer {
   /* Vergroting van 1.5x (150%) */
   transform: scale(1.5);
 }
+
+.f1 {
+  margin-left: 100px;
+  width: 70%;
+  height: 500px;  /* Set a fixed height or adjust as needed */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+}
