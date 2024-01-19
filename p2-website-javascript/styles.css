@@ -286,3 +286,32 @@ footer {
 }
 
 }
+
+/* CSS for the Memory Game Azra */
+
+/* Styling for the game container */
+#game-container {
+  text-align: center;
+}
+
+/* Styling for the memory board grid */
+#memory-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Styling for individual cards */
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  cursor: pointer;
+}
+
+/* Styling to hide elements */
+.hidden {
+  display: none;
+}
+
